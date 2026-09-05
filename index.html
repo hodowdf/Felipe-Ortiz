@@ -451,159 +451,114 @@
 
 
         <!-- PERFILES -->
-        <section id="perfiles" class="section">
-            <div class="container">
+        ```html
+<!-- Perfiles -->
+<section class="section" id="perfiles">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-number">05</span>
+            <div>
+                <span class="section-label">/ perfiles</span>
+                <h2>Plataformas</h2>
+            </div>
+        </div>
 
-                <div class="section-header">
-                    <span class="section-number">05</span>
-                    <h2>Mis perfiles</h2>
+        <div class="profiles-grid">
+
+            <!-- Hack The Box -->
+            <article class="profile-card">
+                <div class="profile-card-top">
+                    <div class="profile-icon htb-icon">
+                        HTB
+                    </div>
+
+                    <div class="profile-platform">
+                        <span>HACK THE BOX</span>
+                        <small>Cybersecurity Labs</small>
+                    </div>
                 </div>
 
-                <p class="section-description">
-                    Parte de mi aprendizaje y práctica técnica puede
-                    consultarse públicamente en estas plataformas.
+                <div class="profile-terminal">
+                    <span class="terminal-prompt">$</span>
+                    <span>whoami</span>
+                    <span class="terminal-cursor">_</span>
+                </div>
+
+                <h3>feli</h3>
+
+                <p>
+                    Práctica de ciberseguridad mediante máquinas y laboratorios
+                    enfocados en reconocimiento, enumeración, vulnerabilidades
+                    web y escalada de privilegios.
                 </p>
 
-
-                <div class="profiles-grid">
-
-                    <!-- HACK THE BOX -->
-                    <article class="profile-card htb">
-
-                        <div class="profile-header">
-                            <div>
-                                <span class="profile-label">
-                                    PLATFORM
-                                </span>
-
-                                <h3>Hack The Box</h3>
-                            </div>
-
-                            <span class="profile-symbol">
-                                HTB
-                            </span>
-                        </div>
-
-
-                        <div class="profile-preview">
-
-                            <div class="profile-user">
-                                <div class="avatar-placeholder">
-                                    H
-                                </div>
-
-                                <div>
-                                    <strong>Felipe Ortiz</strong>
-                                    <span>Hack The Box</span>
-                                </div>
-                            </div>
-
-
-                            <div class="profile-stats">
-
-                                <div>
-                                    <span class="stat-value">—</span>
-                                    <span class="stat-label">Rank</span>
-                                </div>
-
-                                <div>
-                                    <span class="stat-value">—</span>
-                                    <span class="stat-label">Machines</span>
-                                </div>
-
-                                <div>
-                                    <span class="stat-value">—</span>
-                                    <span class="stat-label">Challenges</span>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-                        <a
-                            href="https://app.hackthebox.com/users/3865434"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="profile-link"
-                        >
-                            Ver perfil
-                            <span>→</span>
-                        </a>
-
-                    </article>
-
-
-                    <!-- TRYHACKME -->
-                    <article class="profile-card thm">
-
-                        <div class="profile-header">
-                            <div>
-                                <span class="profile-label">
-                                    PLATFORM
-                                </span>
-
-                                <h3>TryHackMe</h3>
-                            </div>
-
-                            <span class="profile-symbol">
-                                THM
-                            </span>
-                        </div>
-
-
-                        <div class="profile-preview">
-
-                            <div class="profile-user">
-                                <div class="avatar-placeholder">
-                                    H
-                                </div>
-
-                                <div>
-                                    <strong>Felipe Ortiz</strong>
-                                    <span>TryHackMe</span>
-                                </div>
-                            </div>
-
-
-                            <div class="profile-stats">
-
-                                <div>
-                                    <span class="stat-value">—</span>
-                                    <span class="stat-label">Rank</span>
-                                </div>
-
-                                <div>
-                                    <span class="stat-value">—</span>
-                                    <span class="stat-label">Level</span>
-                                </div>
-
-                                <div>
-                                    <span class="stat-value">—</span>
-                                    <span class="stat-label">Rooms</span>
-                                </div>
-
-                            </div>
-
-                        </div>
-
-
-                        <a
-                            href="https://tryhackme.com/p/FelipeOrtiz"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            class="profile-link"
-                        >
-                            Ver perfil
-                            <span>→</span>
-                        </a>
-
-                    </article>
-
+                <div class="profile-tags">
+                    <span>Machines</span>
+                    <span>Web Security</span>
+                    <span>Privilege Escalation</span>
                 </div>
 
-            </div>
-        </section>
+                <a
+                    href="https://app.hackthebox.com/users/3865434"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="profile-link"
+                >
+                    <span>Ver perfil</span>
+                    <span>↗</span>
+                </a>
+            </article>
+
+
+            <!-- TryHackMe -->
+            <article class="profile-card">
+                <div class="profile-card-top">
+                    <div class="profile-icon thm-icon">
+                        THM
+                    </div>
+
+                    <div class="profile-platform">
+                        <span>TRYHACKME</span>
+                        <small>Learning Platform</small>
+                    </div>
+                </div>
+
+                <div class="profile-terminal">
+                    <span class="terminal-prompt">$</span>
+                    <span>whoami</span>
+                    <span class="terminal-cursor">_</span>
+                </div>
+
+                <h3>feli</h3>
+
+                <p>
+                    Aprendizaje práctico de fundamentos de ciberseguridad,
+                    redes, Linux, reconocimiento, enumeración y seguridad
+                    de aplicaciones mediante laboratorios guiados.
+                </p>
+
+                <div class="profile-tags">
+                    <span>Learning Paths</span>
+                    <span>Linux</span>
+                    <span>Networking</span>
+                </div>
+
+                <a
+                    href="https://tryhackme.com/p/FelipeOrtiz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="profile-link"
+                >
+                    <span>Ver perfil</span>
+                    <span>↗</span>
+                </a>
+            </article>
+
+        </div>
+    </div>
+</section>
+```
+
 
 
         <!-- HABILIDADES -->
